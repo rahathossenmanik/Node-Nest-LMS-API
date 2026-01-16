@@ -1,8 +1,8 @@
 {
-  "name": "therap-assessment",
+  "name": "node-nest-lms",
   "private": true,
   "version": "1.0.0",
-  "description": "Therap Assessment API Project",
+  "description": "Node Nest LMS API Project",
   "license": "MIT",
   "scripts": {
     "build": "nest build",

@@ -34,7 +34,7 @@ async function bookstore() {
   const app = await NestFactory.create(AppModule);
 
   const config = new DocumentBuilder()
-    .setTitle('Therap LMS API')
+    .setTitle('Node Nest LMS API')
     .setDescription('Node JS + Nest JS + Mongoose + MongoDB')
     .setVersion('1.0.0')
     .setContact('Email', 'mailto:rahathossenmanik@gmail.com', 'rahathossenmanik@gmail.com')
