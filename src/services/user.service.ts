@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { FilterQuery, Model } from "mongoose";
-import * as bcrypt from "bcrypt";
+import * as bcrypt from "bcryptjs";
 import {
   AuthOutput,
   ChangePasswordInput,
